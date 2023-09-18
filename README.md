@@ -11,3 +11,13 @@ conda activate dl
 
 pip install -r requirements.txt
 ```
+
+Install [PyTorch](https://pytorch.org/) for CPU or GPU platform
+
+```shell
+# CPU platform
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# or GPU platform
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
